@@ -1,0 +1,131 @@
+{
+	"variables": [],
+	"info": {
+		"name": "RateLimiterApi",
+		"_postman_id": "a7e644f5-d41b-b456-7500-4739def12945",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Organization by User1",
+			"request": {
+				"url": {
+					"raw": "localhost/api/v1/organizations?userId=user1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"organizations"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "user1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Organization"
+			},
+			"response": []
+		},
+		{
+			"name": "Organization by User2",
+			"request": {
+				"url": {
+					"raw": "localhost/api/v1/organizations?userId=user1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"organizations"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "user1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Organization by User2"
+			},
+			"response": []
+		},
+		{
+			"name": "developers by User1",
+			"request": {
+				"url": {
+					"raw": "localhost/api/v1/developers?userId=user1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "user1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "developers by User1"
+			},
+			"response": []
+		},
+		{
+			"name": "developers by User2",
+			"request": {
+				"url": {
+					"raw": "localhost/api/v1/developers?userId=user2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "user2",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "developers by User1"
+			},
+			"response": []
+		}
+	]
+}
